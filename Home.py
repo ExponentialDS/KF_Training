@@ -11,7 +11,7 @@ st.write("A personal log for Hard Style, Yoga, and Soft Style training.")
 # --- Local image from /assets ---
 img_path = Path("assets/GraceSteel.jpg")
 if img_path.exists():
-    st.image(str(img_path), caption="The spirit of the White Crane", use_column_width=True)
+    st.image(str(img_path), caption="The spirit of the White Crane", use_container_width=True)
 else:
     st.warning(f"Image not found at {img_path}. Make sure the file is in your repo.")
     st.image(
