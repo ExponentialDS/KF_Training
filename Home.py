@@ -9,7 +9,7 @@ st.title("🥋 White Crane Training Log")
 st.write("A personal log for Hard Style, Yoga, and Soft Style training.")
 
 # --- Local image from /assets ---
-img_path = Path("assets/GraceSteel.webp")
+img_path = Path("assets/GraceSteel.jpg")
 if img_path.exists():
     st.image(str(img_path), caption="The spirit of the White Crane", use_column_width=True)
 else:
